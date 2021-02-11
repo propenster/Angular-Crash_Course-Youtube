@@ -1,0 +1,52 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Adam Smith",
+      "email": "a.smith@gmail.com",
+      "phone": "+102992828223",
+      "department": "Managment",
+      "salary": 45000
+    },
+    {
+      "id": 2,
+      "name": "Rhan Djhal",
+      "email": "rdjhal@nodejs.org",
+      "phone": "+102992828223",
+      "department": "IT",
+      "salary": 50000
+    },
+    {
+      "id": 3,
+      "name": "Ryan Buckler",
+      "email": "rbuckler@rocketmail.com",
+      "phone": "+102992828223",
+      "department": "Servers and Infrastructures",
+      "salary": 65000
+    },
+    {
+      "id": 4,
+      "name": "Ryan Buckler",
+      "email": "rbuckler@rocketmail.com",
+      "phone": "+102992828223",
+      "department": "Servers and Infrastructures",
+      "salary": 65000
+    },
+    {
+      "id": 5,
+      "name": "Ryan Buckler",
+      "email": "rbuckler@rocketmail.com",
+      "phone": "+102992828223",
+      "department": "Servers and Infrastructures",
+      "salary": 65000
+    },
+    {
+      "id": 6,
+      "name": "Ryan Buckler",
+      "email": "rbuckler@rocketmail.com",
+      "phone": "+102992828223",
+      "department": "Servers and Infrastructures",
+      "salary": 65000
+    }
+  ]
+}

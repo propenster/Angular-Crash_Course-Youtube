@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="row">
+        <h2>Employee > {{Employee.id }} </h2>
+
+        <div class="col-md-4 mt-4 px-2" >
+
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> {{ Employee.name }}</h5>
+                    <span><a href="mailto:{{ Employee.email }}">{{ Employee.email }}</a></span> 
+                    <p>Phone: {{Employee.phone}}</p>
+                    <p>Department: <strong>{{ Employee.department }}</strong> </p>
+                    <p>Salary:  {{Employee.salary }}</p>
+                    
+                    <p class="row">
+
+                    <a href="#" class="btn btn-primary btn-sm col-lg-6">View Employee Profile</a> 
+                                        <a routerLink="/employees/{{ Employee.id }}/edit" class="btn btn-secondary btn-sm col-lg-6">Edit Employee</a> 
+
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+</div>

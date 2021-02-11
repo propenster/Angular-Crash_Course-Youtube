@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "employee-portal"
+    }
+  },
+  "defaultProject": "employee-portal",
+  "cli": {
+    "analytics": "12c793fb-2bd1-4d8c-98bb-f6a438d3409f"
+  }
 }
